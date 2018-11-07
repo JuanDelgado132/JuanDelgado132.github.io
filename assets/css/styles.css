@@ -74,4 +74,11 @@
 			width: 100px;
 			height: 100px;
 		}
+		.navbar-nav > li > a:hover{
+		background-color: white !important;
+		color: black !important;
+		-webkit-transition: none;
+		-ms-transition: none;
+		transition: none;
+		}
 	}
