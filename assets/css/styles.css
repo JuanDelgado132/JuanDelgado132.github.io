@@ -44,7 +44,11 @@
 	width: 50%;
 	margin: 0 auto;
 	}	
-	
+	.project-thumbnail {
+		width: 80%;
+		height: 500px;
+	}
+	}
 	#myNav {
 	background-color: white;
 	border-bottom: none;
@@ -52,13 +56,13 @@
 	.navbar-nav >li >a {
 	color: black !important;
 	}
-	.navbar-nav > li > a:hover{
+	/*.navbar-nav > li > a:hover{
 	background-color: #B5DFFF !important;
 	color: black !important;
 	-webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
 	transition: background-color 1000ms linear;
-	}
+	}*/
 	.fa-size-lg {
 	font-size: 6em;
 	}
