@@ -18,9 +18,13 @@
     	height: 250px;
     	border-radius: 50%;
 	}
+	#serviceTrackSummarry {
+		display: none;
+	}
 	.project-pic {
 		width: 300px;
 		height: 300px;
+		display: block;
 	}
 	.project-thumbnail > div {
 		margin: 0 auto;
@@ -82,6 +86,7 @@
 		.project-pic {
 			width: 100px;
 			height: 100px;
+			display: none;
 		}
 		.navbar-nav > li > a:hover{
 		background-color: white !important;
@@ -93,8 +98,12 @@
 		.project-thumbnail {
 		width: 80%;
 		height: auto;
+		margin: 0 auto;
 		}
 		section {
 			height: auto;
+		}
+		#serviceTrackSummarry {
+			display: inline-block;
 		}
 	}
