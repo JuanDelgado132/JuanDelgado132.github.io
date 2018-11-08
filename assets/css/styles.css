@@ -37,7 +37,9 @@
 	font-weight: bold;
 	
 	}
-	
+	section {
+		height: 500px;
+	}
 	section > div {
 	margin: 0px 0px 10px 0px;
 	padding: 10px;
