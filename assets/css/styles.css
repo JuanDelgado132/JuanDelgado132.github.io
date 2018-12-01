@@ -78,6 +78,11 @@
 	.fa-size-md {
 	font-size: 2em;
 	}
+	.portfolio-footer .content {
+	width: 100%;
+	}
+
+
 	@media screen and (max-width: 768px) {
 		.avatar {
 			width: 100px;
@@ -105,5 +110,9 @@
 		}
 		#serviceTrackSummarry {
 			display: inline-block;
+		}
+		
+		.portfolio-footer .content {
+		width: 60%;
 		}
 	}
